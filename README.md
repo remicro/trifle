@@ -1,2 +1,2 @@
 # trifle
-package for contextual declarative logging
+package for contextual declarative testing
