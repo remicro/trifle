@@ -29,10 +29,7 @@ func TestName(t *testing.T) {
 		}
 		name := Name()
 		require.NotEmpty(t, Name())
-		t.Log(name)
 		names := strings.SplitN(name, " ", 2)
-		t.Log(names)
-		t.Log(len(names))
 		require.Len(t, names, 2)
 		assert.NotEmpty(t, names[0])
 		assert.NotEmpty(t, names[1])
@@ -44,10 +41,7 @@ func TestName(t *testing.T) {
 		}
 		name := Name()
 		require.NotEmpty(t, Name())
-		t.Log(name)
 		names := strings.SplitN(name, " ", 2)
-		t.Log(names)
-		t.Log(len(names))
 		require.Len(t, names, 2)
 		assert.NotEmpty(t, names[0])
 		assert.NotEmpty(t, names[1])
